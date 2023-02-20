@@ -62,7 +62,7 @@ jobs:
         run: make compile_tests
 
       - name: Run unit tests
-        run: .:unit_testing
+        run: ./unit_testing
 
       - name: Run integration tests
         run: ./integration_testing
