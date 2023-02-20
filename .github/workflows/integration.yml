@@ -27,8 +27,8 @@ jobs:
               echo "$ERRORS"
               exit 1
           fi
-              echo "Everything is good ! Keep on coding !"
-              exit 0
+          echo "Everything is good ! Keep on coding !"
+          exit 0
 
   compile:
     runs-on: ubuntu-latest
@@ -46,5 +46,5 @@ jobs:
             echo "Binary not found"
             exit 1
           fi 
-            echo "Binary found"
-            exit 0
+          echo "Binary found"
+          exit 0
