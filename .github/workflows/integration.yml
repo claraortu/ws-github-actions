@@ -56,7 +56,7 @@ jobs:
     steps:
 
       - name: Checkout Gh repository
-        uses: actions/chekcout@master
+        uses: actions/checkout@master
       
       - name: Compile test binaries
         run: make compile_tests
