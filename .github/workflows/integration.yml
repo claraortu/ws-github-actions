@@ -30,7 +30,7 @@ jobs:
               echo "Everything is good ! Keep on coding !"
               exit 0
 
-  coding-style:
+  compile:
     runs-on: ubuntu-latest
     steps:
       
